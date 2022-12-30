@@ -849,4 +849,5 @@ PRODUCT_PACKAGES += \
     libril \
     libsdm-disp-vndapis \
     libthermalclient \
-    TimeService
+    TimeService \
+    chargeonlymode

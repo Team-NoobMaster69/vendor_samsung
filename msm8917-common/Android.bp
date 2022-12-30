@@ -113,3 +113,9 @@ android_app_import {
 	soc_specific: true,
 }
 
+cc_prebuilt_binary {
+	name: "chargeonlymode",
+	owner: "samsung",
+	srcs: ["proprietary/bin/chargeonlymode"],
+	prefer: true,
+}
